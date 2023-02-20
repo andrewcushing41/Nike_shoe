@@ -1,0 +1,121 @@
+body {
+    font-family: helvetica;
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/shoe\ background.jpg);
+    background-size: cover;
+    color: white;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+
+.shoe {
+    display: flex;
+}
+
+.jordanshoe {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-left:200px; 
+}
+
+.shoe-info {
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+h1 {
+    padding-top: 70px;
+    margin: 0;
+}
+
+.shoe-gender {
+    padding-top: 3px;
+    margin: 0;
+}
+
+.price {
+    margin-top: 0;
+}
+
+.select-color {
+    display: flex;    
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.select-color-para {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+
+.shoe-color-images {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+}
+.shoe-color{
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    margin-right: 5px;
+    border-radius: 25px;
+    border: 1px rgb(102, 101, 101) solid;
+    cursor: pointer;
+}
+
+.shoe-color:hover {
+    border: 1px rgb(43, 42, 42) solid;
+}
+
+.shoe-size-title {
+    margin-bottom: 0;
+}
+
+.shoe-size-grid {
+    display: grid;
+    grid-template-columns: 92.25px 92.25px 92.25px 92.25px;
+    flex-wrap: wrap;
+    margin-top: 4px;
+    
+}
+
+
+
+.shoe-size-button {
+    background-color: white;
+    border: 1px  rgb(205, 203, 203) solid;
+    border-radius: 1px;
+    cursor: pointer;
+    margin: 1px;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.shoe-size-button:hover {
+    background-color: rgb(225, 224, 224);
+    border: 1px rgb(73, 72, 72) solid
+}
+
+
+.add-to-cart-button {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 55px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+
+.add-to-cart-button:hover {
+    opacity: 0.6;
+}
